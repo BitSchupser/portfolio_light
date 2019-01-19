@@ -106,7 +106,7 @@ export default {
     border-top: #f4bc61 2px solid;
   }
 
-  .collapse {
+  .navbar-collapse {
     background-color: #fcfbf9;
     margin: 0;
   }
