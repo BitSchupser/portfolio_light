@@ -33,7 +33,17 @@
     <About />
 
     <!-- Footer -->
-
+    <ul class="nav justify-content-center">
+      <li class="nav-item footer">
+        <a class="nav-link footer-link" href="#">Impressum</a>
+      </li>
+      <li class="nav-item footer">
+        <a class="nav-link footer-link" href="#">Datenschutz</a>
+      </li>
+      <li class="nav-item footer">
+        &copy;2019 MyPortfolio
+      </li>
+    </ul>
 
   </div>
 
@@ -94,6 +104,31 @@ export default {
 
   .bg-light {
     background-color: #9e978c;
+  }
+
+  .footer {
+    font-size: 0.8em;
+    margin: 0 20px 40px 0;
+    padding: 0;
+    
+  }
+
+  .footer:hover {
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .footer a {
+    color: #000;
+  }
+
+  .footer a:hover {
+    color: #f4bc61;
+  }
+
+  .footer-link {
+    margin: 0;
+    padding: 0;
   }
 
 </style>
