@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="container">
+  <div id="app">
     
     <!-- Portfolio Title or Branding -->
-    <nav class="navbar navbar-light justify-content-center">
+    <nav class="navbar navbar-light justify-content-center mytitle">
       <span class="navbar-brand mb-0 h1">Your Name</span>
     </nav >
 
@@ -56,14 +56,35 @@ export default {
 <style> /* Global App-Styles */
 
   body {
-      background-color: #e2e2e2;
       color: #000;
+      background-color: #e2e2e2;
       font-family: 'Open Sans', sans-serif;
+  }
+
+  .container {
+    margin: 40px auto;
+  }
+
+  .mytitle {
+    margin: 40px auto;
   }
 
   .h1 {
     font-size: 3.5em;
-    margin: 40px auto;
+  }
+
+  .nav-item {
+    padding: 10px 40px;
+    margin: 0;
+    font-size: 1.4em;
+  }
+
+  .nav-item:hover {
+    background-color: #f4bc61;
+  }
+
+  .bg-light {
+    background-color: #9e978c;
   }
 
 </style>
