@@ -7,7 +7,7 @@
     </nav >
 
     <!-- Navigation / Top Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-height">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +29,11 @@
       </div>
     </nav>
 
+    <!-- Default index-Page -->
     <About />
+
+    <!-- Footer -->
+
 
   </div>
 
@@ -59,6 +63,7 @@ export default {
       color: #000;
       background-color: #e2e2e2;
       font-family: 'Open Sans', sans-serif;
+      font-size: 1.2em;
   }
 
   .container {
@@ -73,14 +78,18 @@ export default {
     font-size: 3.5em;
   }
 
+  .nav-height {
+    height: 100px;
+  }
+
   .nav-item {
-    padding: 10px 40px;
-    margin: 0;
+    margin: auto 40px;
     font-size: 1.4em;
   }
 
   .nav-item:hover {
-    background-color: #f4bc61;
+    border-bottom: #f4bc61 2px solid;
+    border-top: #f4bc61 2px solid;
   }
 
   .bg-light {

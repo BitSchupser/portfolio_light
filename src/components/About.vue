@@ -5,6 +5,7 @@
         <p class="about">
             A little information about me and this website ... 
         </p>
+        
     </div>
 </template>
 
