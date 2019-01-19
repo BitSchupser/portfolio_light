@@ -108,7 +108,10 @@ export default {
 
   .navbar-collapse {
     background-color: #fcfbf9;
-    margin: 0;
+  }
+
+  .navbar-collapse .nav-item {
+    line-height: 2em;
   }
 
   .footer {
