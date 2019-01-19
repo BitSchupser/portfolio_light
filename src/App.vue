@@ -7,7 +7,7 @@
     </nav >
 
     <!-- Navigation / Top Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-height">
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg nav-height sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -92,9 +92,13 @@ export default {
     height: 100px;
   }
 
+  .nav-bg {
+    background-color: #fcfbf9;
+  }
+
   .nav-item {
     margin: auto 40px;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .nav-item:hover {
@@ -102,8 +106,9 @@ export default {
     border-top: #f4bc61 2px solid;
   }
 
-  .bg-light {
-    background-color: #9e978c;
+  .collapse {
+    background-color: #fcfbf9;
+    margin: 0;
   }
 
   .footer {
