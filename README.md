@@ -1,4 +1,12 @@
-# my-portfolio
+# my-portfolio 
+
+############ still under construction ###############
+
+It's going to be a light-weight portfolio app built with Vue.js and Bootstrap including the following views:
+* articles
+* about-page
+* contact form
+* photo gallery
 
 ## Project setup
 ```
