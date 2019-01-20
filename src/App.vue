@@ -14,23 +14,23 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <router-link to="/" class="nav-link">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Articles</a>
+            <router-link to="/articles" class="nav-link">Articles</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <router-link to="/gallery" class="nav-link">Gallery</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link to="/contact" class="nav-link">Contact</router-link>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!-- Default index-Page -->
-    <About />
+    <!-- Page loading -->
+    <router-view></router-view>
 
     <!-- Footer -->
     <ul class="nav justify-content-center">
@@ -49,23 +49,6 @@
 
 </template>
 
-<script>
-
-import Articles from './components/Articles'
-import About from './components/About'
-
-export default {
-  name: 'app',
-  components: {
-    About
-  },
-  data() {
-    return {
-     
-    }
-  }
-}
-</script>
 
 <style> /* Global App-Styles */
 
