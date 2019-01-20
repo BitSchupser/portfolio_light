@@ -35,10 +35,10 @@
     <!-- Footer -->
     <ul class="nav justify-content-center">
       <li class="nav-item footer">
-        <a class="nav-link footer-link" href="#">Impressum</a>
+        <router-link to="/terms" class="nav-link footer-link">Terms and Conditions</router-link>
       </li>
       <li class="nav-item footer">
-        <a class="nav-link footer-link" href="#">Datenschutz</a>
+        <router-link to="/privacy" class="nav-link footer-link">Privacy Policies</router-link>
       </li>
       <li class="nav-item footer">
         &copy;2019 MyPortfolio
