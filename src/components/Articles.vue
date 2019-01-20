@@ -1,12 +1,13 @@
 <template>
     <div class="container">
-        <h1>Articles</h1>
+        <p>Here you can read the latest news, about projects, articles, ...</p>
+        <br />
         <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
+                    Article One
                     </button>
                 </h2>
                 </div>
@@ -20,7 +21,7 @@
                 <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
+                    Article Two
                     </button>
                 </h2>
                 </div>
@@ -34,7 +35,7 @@
                 <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
+                    Article Three
                     </button>
                 </h2>
                 </div>
@@ -48,18 +49,27 @@
     </div> <!-- end div container -->
 </template>
 
-<script>
-export default {
-    name: 'Articles'
-}
-</script>
 
 <style scoped>  /* Articles Style only */
     .container {
-        background-color: red;
-        width: 100%;
-        height: 100%;
-        color: #fff;
         text-align: center;
+    }
+
+    .card-header {
+        background-color: #f2f2f2;
+    }
+
+    .btn {
+        font-size: 0.8em;
+        color: #a2a2a2;
+    }
+
+    .btn:hover {
+        color: #f4bc61;
+        text-decoration: none;
+    }
+
+    .collapsed {
+        text-decoration: none;
     }
 </style>
