@@ -9,11 +9,6 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'About'
-    }
-</script>
 
 <style scoped>  /* About Styles only */
     .img-fluid {
