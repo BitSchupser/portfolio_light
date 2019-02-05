@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router';
+import Lightbox from 'vue-my-photos';
 import App from './App.vue'
 import Articles from './components/Articles.vue';
 import About from './components/About.vue';
@@ -9,7 +10,8 @@ import Terms from './components/Terms.vue';
 import Privacy from './components/Privacy.vue';
 
 Vue.use(VueRouter);
-
+Vue.use(Lightbox);
+Vue.component('lightbox', Lightbox);
 Vue.config.productionTip = false
 
 const routes = [

@@ -53,8 +53,8 @@
 <style> /* Global App-Styles */
 
   body {
-      color: #000;
-      background-color: #e2e2e2;
+      color: #fff;
+      background-color: #3a3838;
       font-family: 'Open Sans', sans-serif;
       font-size: 1.2em;
   }
@@ -76,7 +76,7 @@
   }
 
   .nav-bg {
-    background-color: #fcfbf9;
+    background-color: #a19d94;
   }
 
   .nav-item {
@@ -90,7 +90,7 @@
   }
 
   .navbar-collapse {
-    background-color: #fcfbf9;
+    background-color: #a19d94;
   }
 
   .navbar-collapse .nav-item {
