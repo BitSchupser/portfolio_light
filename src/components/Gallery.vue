@@ -35,22 +35,19 @@
 </template>
 
 <script>
+import homerImg from '../assets/gallery/homer.png'
+import lionImg from '../assets/gallery/lion.jpg'
+import myselfImg from '../assets/gallery/mypic.jpg'
 
-var imageList = [{'name':'mountains.jpg', 'alt':'The Dolomites', 'filter':'nature', 'id':'image1' },
-               {'name':'bird.jpg', 'alt':'It is a bird on a tree!', 'filter':'animals', 'id':'image2' }, 
-               {'name':'alps.jpg', 'alt':'I will live here someday', 'filter':'nature', 'id':'image3' },
-               {'name':'mypic.jpg', 'alt':'FUUUUUUUU', 'filter':'animals', 'id':'image4' },
-               {'name':'canyon.jpg', 'alt':'A worthy hike', 'filter':'nature', 'id':'image5' },
-               {'name':'monumentvalley.jpg', 'alt':'Monument Valley', 'filter':'nature', 'id':'image6' },
-               {'name':'puppy.jpg', 'alt':'Puppy with a feather', 'filter':'animals', 'id':'image7' }, 
-               {'name':'redwoods.jpg', 'alt':'Foggy evening in the Redwoods', 'filter':'nature', 'id':'image8' }, 
-               {'name':'mypic.jpg', 'alt':'HUHHU', 'filter':'nature', 'id':'image9' }];
+var imageList = [{'name':homerImg, 'alt':'Homer Simpson', 'filter':'nature', 'id':'image1' },
+               {'name':lionImg, 'alt':'A hughe lion!', 'filter':'animals', 'id':'image2' }, 
+               {'name':myselfImg, 'alt':'Myself', 'filter':'animals', 'id':'image3' }];
 
 export default {
   name: 'mygallery',
   data () {
     return {
-      thumbnailDir: '/assets/gallery/',
+      thumbnailDir: '.',
       images: imageList,
       galleryFilter: 'all',
     }
